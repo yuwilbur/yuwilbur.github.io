@@ -23,7 +23,9 @@ div#nav-container{
 }
 
 div#nav-logo {
-  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 div#nav-menu {
@@ -71,6 +73,27 @@ ul.nav a:hover {
 }
 
 #content {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 900px;
+}
+
+div#about {
+}
+
+div#about_content {
+  float: left;
+  max-width: 500px;
+  text-align: left;
+}
+
+div#about_image {
+  float: right;
+}
+
+img#wilbur {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* ul.menu1
