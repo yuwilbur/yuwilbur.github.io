@@ -1,4 +1,8 @@
 /* LAYOUT */
+h1, h2, p, span, div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0;
   background-color: #FFFFFF;
@@ -22,14 +26,14 @@ div#header {
 
 div#content {
   margin: 0 auto;
-  padding: 1em;
+  padding: 20px;
   max-width: 960px;
   clear: both;
 }
 
 div#footer {
   margin: 0 auto;
-  padding: 1em;
+  padding: 20px;
   text-align: center;
   width: 100%;
   clear: both;
@@ -38,12 +42,37 @@ div#footer {
 /* HEADER */
 div#navigation {
   margin: 0 auto;
+  padding: 20px;
   max-width: 960px;
   text-align: center;
+  clear: both;
+}
+
+div#navigation-sides {
+  margin: auto;
+  color: #FFFFFF;
+  width: 39%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+div#navigation-center {
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
 }
 
 img#logo {
-  width: 250px;
+  width: 90%;
 }
 
 /* BIO */
