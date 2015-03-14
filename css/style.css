@@ -1,4 +1,82 @@
+/* LAYOUT */
 body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+div#container {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+div#header {
+  background-image: url('../img/HeaderBG.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  float: left;
+  clear: none;
+}
+
+div#content {
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 960px;
+  clear: both;
+}
+
+div#footer {
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+
+/* HEADER */
+div#navigation {
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
+}
+
+img#logo {
+  width: 250px;
+}
+
+/* BIO */
+div#bio {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #C0C0C0;
+  clear: both;
+}
+
+div#bio-content {
+  width: 60%;
+  float: left;
+}
+
+div#bio-image {
+  width: 40%;
+  float: left;
+}
+
+img#profile-pic {
+  width: 100%;
+  height: 100%;
+}
+
+/* WORK */
+
+div#work {
+  clear: both;
+}
+
+/* body {
   background-color: #white;
   margin: 0;
 }
@@ -83,7 +161,7 @@ div#about {
 
 div#about_content {
   float: left;
-  max-width: 500px;
+  max-width: 600px;
   text-align: left;
 }
 
@@ -136,4 +214,4 @@ ul.menu1 li a
 ul.menu1 li a:hover, ul.menu1 li a.current
 {
     background-position:0 -40px;
-} */
+} */ */
