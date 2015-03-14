@@ -61,7 +61,7 @@ div#navigation-sides {
   width: 39%;
   display: inline-block;
   vertical-align: middle;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 div#navigation-center {
@@ -91,15 +91,15 @@ div#bio {
 }
 
 div#bio-content {
-  width: 60%;
+  width: 65%;
   float: left;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 div#bio-image {
   padding: 1% 1% 1% 1%;
   border-style: dashed;
-  width: 35%;
+  width: 30%;
   float: right;
 }
 
