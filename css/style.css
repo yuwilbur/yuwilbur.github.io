@@ -90,8 +90,10 @@ div#bio-content {
 }
 
 div#bio-image {
-  width: 40%;
-  float: left;
+  padding: 10px 10px 10px 10px;
+  border-style: solid;
+  width: 30%;
+  float: right;
 }
 
 img#profile-pic {
