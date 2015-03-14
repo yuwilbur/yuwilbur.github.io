@@ -54,7 +54,7 @@ div#navigation-sides {
   width: 39%;
   display: inline-block;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 div#navigation-center {
