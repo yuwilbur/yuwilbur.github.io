@@ -5,7 +5,6 @@ h1, h2, p, span, div {
 
 body {
   margin: 0;
-  background-color: #C0C0C0;
 }
 
 div#container {
@@ -17,7 +16,7 @@ div#container {
 div#header {
   background-image: url('../img/HeaderBG.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   width: 100%;
   float: left;
@@ -26,18 +25,25 @@ div#header {
 
 div#content {
   margin: 0 auto;
-  padding: 20px;
+  padding: 1em;
   max-width: 960px;
   clear: both;
-  background-color: #FFFFFF;
+  /* Fallback for browsers that don't support RGBA */
+  /* background-color: rgb(255, 255, 255); */
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 div#footer {
   margin: 0 auto;
-  padding: 20px;
-  text-align: center;
   width: 100%;
   clear: both;
+}
+
+div.section-divider {
+  clear: both;
+  height: 1em;
+  display: block;
+  width: 100%;
 }
 
 /* HEADER */
