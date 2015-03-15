@@ -49,9 +49,12 @@ div.navigation-divider {
 
 div.section-divider {
   clear: both;
-  height: 1em;
+  margin: 1em auto;
   display: block;
   width: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(255, 128, 0);
 }
 
 /* HEADER */
@@ -65,7 +68,7 @@ div#navigation {
 
 div#navigation-sides {
   margin: auto;
-  color: #FFFFFF;
+  color: #FFFFFF; 
   width: 39%;
   display: inline-block;
   vertical-align: middle;
@@ -100,15 +103,18 @@ div#bio {
 
 div#bio-content {
   width: 65%;
-  float: left;
+  padding-right: 1.5%;
   font-size: 1em;
+  display: inline-block;
+  vertical-align: top;
 }
 
 div#bio-image {
   padding: 1% 1% 1% 1%;
   border-style: dashed;
   width: 30%;
-  float: right;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 img#profile-pic {
