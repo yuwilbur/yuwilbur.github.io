@@ -19,7 +19,6 @@ div#header {
   background-size: cover;
   background-position: center;
   width: 100%;
-  float: left;
   clear: none;
 }
 
@@ -81,18 +80,6 @@ div#navigation-center {
   vertical-align: middle;
 }
 
-div.content-item {
-  margin: 0.5%;
-  padding: 0.5%;
-  width: 30.5%;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 1em;
-  border-style: dotted;
-  border-width: thin;
-  border-color: rgb(255, 128, 0);
-}
-
 .text-right {
   text-align: right;
 }
@@ -111,6 +98,7 @@ div#bio {
   padding: 0;
   width: 100%;
   clear: both;
+  text-align: center;
 }
 
 div#bio-content {
@@ -119,6 +107,7 @@ div#bio-content {
   font-size: 1em;
   display: inline-block;
   vertical-align: top;
+  text-align: left;
 }
 
 div#bio-image {
@@ -138,10 +127,17 @@ img#profile-pic {
 
 div#work {
   clear: both;
+  text-align: center;
 }
 
-
-img#wilbur {
-  max-width: 100%;
-  max-height: 100%;
+div.content-item {
+  margin: 0.5%;
+  padding: 0.5%;
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  border-style: dotted;
+  border-width: thin;
+  border-color: rgb(255, 128, 0);
 }
