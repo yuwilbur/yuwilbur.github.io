@@ -130,14 +130,34 @@ div#work {
   text-align: center;
 }
 
-div.content-item {
+div.project{
   margin: 0.5%;
   padding: 0.5%;
   width: 30%;
   display: inline-block;
   vertical-align: middle;
-  font-size: 1em;
-  border-style: dotted;
+  border-style: dashed;
   border-width: thin;
   border-color: rgb(255, 128, 0);
+}
+
+div.project-info {
+  padding: 1%;
+  width: 100%;
+  font-size: 1em;
+  text-align: left;
+}
+
+div.project-title {
+  padding: 1%;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+span.project-lang {
+  font-size: 0.5em;
+}
+
+img.project-img {
+  width: 100%;
 }
