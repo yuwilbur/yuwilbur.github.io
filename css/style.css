@@ -39,6 +39,14 @@ div#footer {
   clear: both;
 }
 
+div.navigation-divider {
+  clear: both;
+  height: 0.25em;
+  display: block;
+  width: 100%;
+  background-color: rgb(255, 128, 0);
+}
+
 div.section-divider {
   clear: both;
   height: 1em;
@@ -93,7 +101,7 @@ div#bio {
 div#bio-content {
   width: 65%;
   float: left;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 div#bio-image {
